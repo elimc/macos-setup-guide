@@ -82,10 +82,11 @@ eval "$(starship init zsh)"
 bash -c 'macchina'
 ```
 
-Let's upgrade Pythons setup tools:
+Let's upgrade Pythons setup tools and install some common packages:
 
 ```
 python3 -m pip install --upgrade setuptools
+python3 -m pip install numpy scipy matplotlib pandas
 ```
 
 ## Quick Look Plugins
@@ -154,6 +155,20 @@ We are going to install Mojo, the Python superset. You will need to login to rec
 To install Docker you will need to go to the following site to download for your specific machine:
 
 * <https://hub.docker.com/>
+
+
+## Calibre
+We will need to import the data from Calibre in the old computer:
+
+* <https://manual.calibre-ebook.com/faq.html#how-do-i-move-my-calibre-data-from-one-computer-to-another>
+
+
+## OS Customization
+We're going to need to make some changes to the OS to improve our Mac experience. First, let's increase the speed with which the Dock opens:
+
+```
+defaults write com.apple.dock autohide-time-modifier -float 0.00;killall Dock
+```
 
 
 ## Congrations!
