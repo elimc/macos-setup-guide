@@ -30,7 +30,7 @@ Now we can install Homebrew in the terminal:
 MacOS comes preinstalled with **zsh**, so we will need to make sure our path is set up correctly. *Note: I think this works?*
 
 ```
-sudo echo 'PATH="/opt/homebrew:/usr/local/bin:$PATH"' >> ~/.zshrc
+sudo echo 'PATH="/opt/homebrew/bin/:/usr/local/bin:$PATH"' >> ~/.zshrc
 ```
 
 Start a new terminal session so that we can use use ```brew```. Then make sure everything works by running:
