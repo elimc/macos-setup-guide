@@ -46,7 +46,7 @@ If everything works, it will say: *Ready to brew!*
 We will want to set up our Command Line Interface (CLI) to enhance the Devloper Experience (DX) of the following steps:
 
 ```
-brew install --cask \
+brew install --no-quarantine --cask \
     fig \
     visual-studio-code \
     warp
@@ -56,7 +56,7 @@ We need to install some fonts to get the best out of our CLI:
 
 ```
 brew tap homebrew/cask-fonts
-brew install --cask \
+brew install --no-quarantine --cask \
     font-fira-code \
     font-hack-nerd-font \
     font-source-code-pro
@@ -65,7 +65,7 @@ brew install --cask \
 
 ## Useful Terminal Software
 ```
-brew install \
+brew install --no-quarantine \
     eza \
     git \
     gotop \
@@ -94,24 +94,26 @@ python3 -m pip install numpy scipy matplotlib pandas
 These plugins add support for quick look in the finder; *press Space Bar on a file in the finder*)
 
 ```
-brew install --cask \
+brew install --no-quarantine --cask \
     qlcolorcode \
-    qlstephen \
     qlmarkdown \
     quicklook-json \
-    qlprettypatch \
     quicklook-csv \
     betterzip \
     webpquicklook \
-    suspicious-package
+    syntax-highlight
 ```
-    
+
+Getting the quicklook plugins installed correctly can be tricky. Make sure you follow the instructions in the following link:
+
+* <https://github.com/sbarex/SourceCodeSyntaxHighlight>
+
 
 ## App Suggestions
 Common desktop applications.
 
 ```
-brew install --cask \
+brew install --no-quarantine --cask \
     calibre \
     clipy \
     discord \
