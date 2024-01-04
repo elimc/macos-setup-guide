@@ -58,6 +58,7 @@ We need to install some fonts to get the best out of our CLI:
 brew tap homebrew/cask-fonts
 brew install --cask \
     font-fira-code \
+    font-hack-nerd-font \
     font-source-code-pro
 ```
 
@@ -68,8 +69,8 @@ brew install \
     eza \
     git \
     gotop \
+    java \
     macchina \
-    node \
     python \
     starship \
     wget
@@ -112,11 +113,14 @@ Common desktop applications.
 ```
 brew install --cask \
     calibre \
+    clipy \
     discord \
     dropbox \
     google-chrome \
     firefox \
-    vlc
+    signal \
+    vlc \
+    zoom
 ```
 
 
@@ -131,6 +135,19 @@ Search the google store for the following extensions:
 * uBlock Origin
 * Unpaywall
 * Wikiwand
+
+
+## Git setup
+```
+git config --global user.name name
+git config --global user.email name@host.com
+```
+
+
+## VS Code Plugin Setup
+Theoretically, you can sync all your plugins by following these instructions:
+
+* <https://code.visualstudio.com/docs/editor/settings-sync>
 
 
 ## Local
