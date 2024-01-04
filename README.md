@@ -95,11 +95,12 @@ These plugins add support for quick look in the finder; *press Space Bar on a fi
 
 ```
 brew install --no-quarantine --cask \
+    betterzip \
+    jupyter-notebook-viewer \
     qlcolorcode \
     qlmarkdown \
-    quicklook-json \
     quicklook-csv \
-    betterzip \
+    quicklook-json \
     webpquicklook \
     syntax-highlight
 ```
@@ -120,7 +121,6 @@ brew install --no-quarantine --cask \
     dropbox \
     google-chrome \
     firefox \
-    signal \
     vlc \
     zoom
 ```
@@ -168,6 +168,18 @@ We are going to install Raycast to replace the default Spotlight Search. You wil
 We are going to install Mojo, the Python superset. You will need to login to receive your specific authorization code to put in the CLI:
 
 * <https://developer.modular.com/download>
+
+
+## Google Drive
+You will install Google Drive by downloading it from the following location:
+
+* <https://www.google.com/drive/download/>
+
+
+## Signal
+You will install Signal by downloading it from the following location:
+
+* <https://signal.org/download/>
 
 
 ## Docker
