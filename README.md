@@ -73,7 +73,8 @@ brew install --no-quarantine \
     macchina \
     python \
     starship \
-    wget
+    wget \
+    wp-cli
 ```
 
 Double check that you ```.zshrc``` file has the following towards the end of the file:
