@@ -59,6 +59,7 @@ brew tap homebrew/cask-fonts
 brew install --no-quarantine --cask \
     font-fira-code \
     font-hack-nerd-font \
+    font-inter \
     font-source-code-pro
 ```
 
