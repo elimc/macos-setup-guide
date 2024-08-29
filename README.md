@@ -123,6 +123,7 @@ brew install --no-quarantine --cask \
     dropbox \
     google-chrome \
     firefox \
+    flux \
     vlc \
     zoom
 ```
