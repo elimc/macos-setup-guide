@@ -47,7 +47,6 @@ We will want to set up our Command Line Interface (CLI) to enhance the Devloper 
 
 ```
 brew install --no-quarantine --cask \
-    fig \
     visual-studio-code \
     warp
 ```
