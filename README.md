@@ -124,6 +124,7 @@ brew install --no-quarantine --cask \
     google-chrome \
     firefox \
     flux \
+    shottr \
     vlc \
     zoom
 ```
