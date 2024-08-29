@@ -118,6 +118,7 @@ Common desktop applications.
 ```
 brew install --no-quarantine --cask \
     calibre \
+    chatgpt \
     clipy \
     discord \
     dropbox \
