@@ -79,11 +79,15 @@ brew install --no-quarantine \
 
 For the system Java wrappers to find this JDK, symlink it with:
 
-```sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk```
+```
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+```
 
 For compilers to find openjdk you may need to set:
 
-```export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"```
+```
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+```
 
 Double check that you ```.zshrc``` file has the following towards the end of the file:
 
