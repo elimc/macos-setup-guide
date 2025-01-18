@@ -27,7 +27,7 @@ Now we can install Homebrew in the terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-MacOS comes preinstalled with **zsh**, so we will need to make sure our path is set up correctly. *Note: I think this works?*
+MacOS comes preinstalled with **zsh**, so we will need to make sure our path is set up correctly.
 
 ```
 sudo echo 'PATH="/opt/homebrew/bin/:/usr/local/bin:$PATH"' >> ~/.zshrc
@@ -76,6 +76,12 @@ brew install --no-quarantine \
     wget \
     wp-cli
 ```
+
+For the system Java wrappers to find this JDK, symlink it with:
+```sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk```
+
+For compilers to find openjdk you may need to set:
+```export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"```
 
 Double check that you ```.zshrc``` file has the following towards the end of the file:
 
