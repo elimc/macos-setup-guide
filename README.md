@@ -125,7 +125,7 @@ Getting the quicklook plugins installed correctly can be tricky. Make sure you f
 
 ## App Suggestions
 Common desktop applications.
-
+brew install --cask rectangle
 ```
 brew install --no-quarantine --cask \
     calibre \
@@ -136,6 +136,7 @@ brew install --no-quarantine --cask \
     google-chrome \
     firefox \
     flux \
+    rectangle \
     shottr \
     vlc \
     zoom
