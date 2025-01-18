@@ -141,6 +141,11 @@ brew install --no-quarantine --cask \
     zoom
 ```
 
+Clipy is built for Intel macOS and so requires Rosetta 2 to be installed. You can install Rosetta 2 with:
+
+```
+softwareupdate --install-rosetta --agree-to-license
+```
 
 ## Chrome Extensions
 Search the google store for the following extensions:
