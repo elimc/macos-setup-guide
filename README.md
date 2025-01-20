@@ -138,6 +138,7 @@ brew install --no-quarantine --cask \
     flux \
     rectangle \
     shottr \
+    spotify \
     vlc \
     zoom
 ```
